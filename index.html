@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta data-n-head="true" data-hid="description" name="description" content="ComerceApp te ayuda a manejar tus reservas !La primera aplicación móvil que te permite generar resevas en restaurantes, doctores, estilo de vida y más en un solo lugar!">
+    <link data-n-head="true" rel="icon" type="image/png" href="public/img/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+    <link rel="stylesheet" href="public/css/app.css">
+    <title>ComerceApp</title>
+</head>
+
+<body>
+    <section>
+        <div class="flex fixed w-full overflow-hidden items-center z-50" id="navbar">
+            <div class="flex flex-col lg:flex-row lg:items-center w-full justify-between lg:px-6 px-2 mb-2">
+                <div class="flex items-center justify-between">
+                    <img src="public/img/logo.png" alt="" class="md:w-auto w-40">
+                    <button id="toggle" class="Toggle lg:hidden pt-2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div id="text-nav" class="lg:flex flex-col lg:flex-row lg:items-center md:h-auto justify-between  text-white hidden md:mr-12">
+                    <a href="index.html" class="lg:w-1/2 block lg:border-t-4 p-4 lg:border-transparent hover:border-white mx-4 lg:text-xl text-3xl">Home</a>
+                    <a href="comerce.html" class="lg:w-1/2 block lg:border-t-4 p-4 lg:border-transparent hover:border-white mx-4 lg:text-xl text-3xl">Comercio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gradient-1">
+        <img src="public/img/logo-mark-bg.png" alt="" class="absolute bottom-0 lg:h-auto h-64  lg:block hidden">
+        <div class="container m-auto flex flex-col-reverse lg:flex-row lg:h-screen h-auto lg:items-end items-center">
+            <div class="lg:w-1/2 relative z-0">
+                <img src="public/img/pantalla-home.png" alt="" class="bottom-0 lg:absolute ">
+            </div>
+            <div class="w-full lg:w-2/3 flex flex-col justify-center h-full pt-24">
+                <h1 class="text-white text-3xl lg:text-6xl text-center lg:text-left open-sans">
+                    ComerceApp
+                    <br> te ayuda a manejar tus reservas
+                </h1>
+                <p class="text-white mb-6 lg:text-lg text-center lg:text-left ">
+                    ¡La primera aplicación móvil que te permite generar resevas en restaurantes, doctores, estilo de vida y más en un solo lugar!
+                </p>
+                <div class="flex items-center lg:justify-start justify-between mb-6">
+                    <a href="https://apps.apple.com/sv/app/tap-app/id1463862312?l=en">
+                        <img src="public/img/badge-appstore.png" alt="" class="h-12 w-auto lg:h-16 lg:mr-2 mx-0">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.elaniin.tapapp.android">
+                        <img src="public/img/badge-playstore.png" alt="" class="h-12 w-auto lg:h-16 lg:ml-2 mx-0">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-blue-1 h-auto py-20">
+        <div class="container m-auto flex flex-col lg:flex-row items-center">
+            <div class="w-full lg:w-1/2 text-white lg:justify-start lg:items-start justify-center items-center flex flex-col lg:px-0 px-2">
+                <div class="lg:w-5/6">
+                    <h2 class="open-sans text-4xl mb-5">
+                        Reserva desde Cualquier lugar
+                    </h2>
+                    <p class="text-xl">
+                        Estés donde estés, a la hora que sea, tu puedes crear tu reserva en cualquiera de los negocios afiliados a Tap the App. Solamente selecciona tu establecimiento de preferencia, el día y la hora que deseas reservar y ¡listo!
+                    </p>
+                </div>
+            </div>
+            <div class="lg:w-1/2 h-auto">
+                <div class="container m-auto h-auto lg:h-screen flex items-center justify-center lg:p-0 p-12">
+                    <img src="public/img/phone-map.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-green-1 h-auto py-20">
+        <div class="container m-auto flex flex-col lg:flex-row items-center">
+            <div class="w-full lg:w-1/2 text-white lg:justify-start lg:items-start justify-center items-center flex flex-col lg:px-0 px-2">
+                <div class="lg:w-5/6">
+                    <h2 class="open-sans text-4xl mb-5 text-blue-1">
+                        Encuentra las mejores promociones
+                    </h2>
+                    <p class="text-xl">
+                        Dales tap! y ahorra lo más que puedas. Selecciona la promoción que quieras, dale ¡click! Al botón de “obtener promoción”, muéstrala en el establecimiento indicado y economiza tus gastos.
+                    </p>
+                </div>
+            </div>
+            <div class="lg:w-1/2 h-auto">
+                <div class="container m-auto h-auto lg:h-screen flex items-center justify-center lg:p-0 p-12">
+                    <img src="public/img/phone-promo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-blue-1 h-auto py-20">
+        <div class="container m-auto flex flex-col lg:flex-row items-center">
+            <div class="w-full lg:w-1/2 text-white lg:justify-start lg:items-start justify-center items-center flex flex-col lg:px-0 px-2">
+                <div class="lg:w-5/6">
+                    <h2 class="open-sans text-4xl mb-5">
+                        No vuelvas a perder tu cita
+                    </h2>
+                    <p class="text-xl">
+                        Con nuestras notificaciones automáticas, ¡nunca volverás a perder una cita! recibirás un recordatorio para que puedas planear con tiempo tu visita a tu establecimiento preferido. Si no te es posible atender a la hora y/o el día que habías reservado, no
+                        te preocupes, re-agenda tu cita. Si vas a poder atender, reconfirmala y ve, te estarán esperando.
+                    </p>
+                </div>
+            </div>
+            <div class="lg:w-1/2 h-auto">
+                <div class="container m-auto h-auto lg:h-screen flex items-center justify-center lg:p-0 p-12">
+                    <img src="public/img/phone-citas.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex flex-col-reverse lg:flex-row items-center lg:justify-between h-full bg-gray-1">
+            <div class="lg:w-1/3 w-full flex flex-col text-center lg:text-left items-center lg:items-start justify-center px-4 lg:px-0 mx-auto my-24">
+                <h3 class="text-gray-1 text-xl font-bold">
+                    COMERCIOS
+                </h3>
+                <h4 class="open-sans text-4xl mb-4">
+                    ¡Aumenta tus ventas!
+                </h4>
+                <p class="mb-8">
+                    Sé parte de nuestros socios estratégicos. Únete a TapApp para llegar a más clientes y aumentar tus ventas.
+                </p>
+                <a href="comerce.html" class="bg-green-1 hover:bg-green-600 w-64 py-2 text-white text-center rounded">
+                    Leer más
+                </a>
+            </div>
+            <div class="">
+                <img src="public/img/img-ventas.png" alt="" class="h-auto lg:w-128 w-128">
+            </div>
+        </div>
+    </section>
+    <section class="mb-12">
+        <div class="container m-auto w-full">
+            <div class="py-12">
+                <h3 class="text-blue-1 text-4xl open-sans mb-6 text-center">
+                    FAQ’S
+                </h3>
+                <p class="text-center">
+                    Guía general de uso de la aplicación y preguntas frecuentes
+                </p>
+            </div>
+            <div class="md:px-16 px-2">
+                <ul>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    ¿Que es ComerceApp?
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Como usuario de la app, ¿Puedo re-agendar una cita a la que ya no podre asistir? 
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Cómo usuario de la app, ¿como me califican?  
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Como usuario de la app, ¿que tengo que pagar?
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    ¿Qué pasa si como usuario de la app tengo una mala calificación?
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Como establecimiento, ¿Cómo me califican?
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Como establecimiento, ¿puedo mejorar mi plan?
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Como establecimiento, ¿Qué pasa si llego al límite de citas agendadas? (ver tu plan)
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="collapse">
+                        <div class="title py-2">
+                            <a class="flex p-4 no-underline ">
+                                <span class="open text-blue-1">
+                                    <strong>+</strong>
+                                </span>
+                                <span class="close text-blue-1 hidden">
+                                    <strong>-</strong>
+                                </span>
+                                <strong class="pl-4 text-lg">
+                                    Como establecimiento, ¿a que reporteria tengo acceso?
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="content pl-20 p-4 hidden">
+                            <p class="pb-4">
+                                En ComerceApp somos una empresa dedicada a proporcionar una solución en cuanto al flujo de información entre tus clientes y tu establecimiento.
+                            </p>
+                            <p class="pb-4">
+                                Hoy en día, existe una gran demanda tecnológica de parte de los consumidores finales en cuanto a encontrar una solución para agendar una cita. Según investigaciones, 91% de personas encontrarían útil una aplicación celular para solucionar dicha problemática,
+                                y aquí es donde ComerceApp entra en juego.
+                            </p>
+                            <p class="pb-4">
+                                ComerceApp no solamente elimina el problema de interacción entre establecimiento-consumidor por medio de una plataforma moderna, la cual simplifica la comunicación entre los interesados, sino que también reduce la cantidad de “no-shows ”, mejorando así
+                                tus ingresos, te proporciona una plataforma para darte a conocer y te facilita poderosa y útil reportaría por medio de un web service estructurado acorde a tu negocio.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-1 ">
+        <div class="flex flex-col items-center py-20 px-2">
+            <div class="container m-auto flex flex-col items-center text-center">
+                <h1 class="open-sans text-4xl mb-6">
+                    Contáctanos
+                </h1>
+            </div>
+            <div class="w-full lg:w-2/3 py-16 bg-white rounded">
+                <form class="flex flex-wrap flex-col lg:flex-row">
+                    <div class="flex flex-col lg:flex-row w-full lg:mb-12 lg:mb-0 mb-6">
+                        <div class="flex flex-col px-6 w-full lg:w-1/2 lg:mb-0 mb-6">
+                            <label for="name" class="mb-4 text-blue-1 open-sans">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Cameron Rogers" class="p-2 border-solid border-b-2 border-gray-500" aria-invalid="false" aria-required="true">
+                        </div>
+                        <div class="flex flex-col px-6 w-full lg:w-1/2">
+                            <label for="message" class="mb-4 text-blue-1 open-sans">Mensaje</label>
+                            <input type="text" id="message" name="message" placeholder="Escribe tu consulta..." class="p-2 border-solid border-b-2 border-gray-500" aria-invalid="false" aria-required="true">
+                        </div>
+                    </div>
+                    <div class="flex flex-col lg:flex-row w-full lg:mb-12 mb-6 items-end">
+                        <div class="flex flex-col px-6 w-full lg:w-1/2 lg:mb-0 mb-6">
+                            <label for="email" class="mb-4 text-blue-1 open-sans">Email</label>
+                            <input type="text" id="email" name="email" placeholder="sheila.legros@hotmail.com" class="p-2 border-solid border-b-2 border-gray-500" aria-invalid="false" aria-required="true">
+                        </div>
+                        <div class="flex flex-col px-6 w-full lg:w-1/2 lg:items-start items-center justify-center text-center">
+                            <a class="bg-blue-1 text-white open-sans rounded hover:bg-blue-700 py-2 w-64">Enviar Mensaje</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black py-6">
+        <div class="container m-auto">
+            <div class="flex items-center mb-6 justify-between">
+                <img src="public/img/logo-comerce.png" alt="">
+                <a href="https://www.facebook.com/TapAppSV/" class="h-full">
+                    <span class="text-white text-3xl mr-4 fab fa-facebook-f"></span>
+                </a>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between md:text-left text-center ">
+                <p class="text-gray-1">
+                    © Comerce. Todos los derechos reservados, 2019
+                </p>
+                <div class="flex flex-col md:flex-row items-center">
+                    <p class="text-gray-1">Terminos y Condiciones</p>
+                    <div class="md:inline hidden border border-white mx-4 h-6"></div>
+                    <p class="text-gray-1">Políticas de Privacidad</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="public\scripts\scripts.js"></script>
+</body>
+
+</html>
